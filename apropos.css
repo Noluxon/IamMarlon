@@ -1,0 +1,157 @@
+body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffd832;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 16px;
+      margin-top: 8px;
+      color: #555;
+    }
+
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #ffd832;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #333;
+      border-bottom: 3px solid #ffd832;
+      padding-bottom: 6px;
+    }
+
+    /* About */
+    .about {
+      background-color: #fffbe6;
+      border: 1px solid #ffd832;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 40px;
+      line-height: 1.8;
+    }
+
+    /* Hobbies */
+    .hobbies-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+
+    .hobbies-list li {
+      background-color: #ffd832;
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+    }
+
+    table th {
+      background-color: #ffd832;
+      padding: 10px;
+      text-align: left;
+    }
+
+    table td {
+      padding: 10px;
+      border-bottom: 1px solid #f0e68c;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #fffbe6;
+    }
+
+    /* Contact */
+    .contact {
+      background-color: #fffbe6;
+      border: 1px solid #ffd832;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+
+    .contact input,
+    .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 16px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      box-sizing: border-box;
+      background-color: white;
+    }
+
+    .contact textarea {
+      height: 90px;
+      resize: vertical;
+    }
+
+    .contact label {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .contact button {
+      background-color: #ffd832;
+      color: #333;
+      border: none;
+      padding: 10px 28px;
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .contact button:hover {
+      background-color: #f0c800;
+    }
+
+    footer {
+      background-color: #ffd832;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
