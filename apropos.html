@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Lien pour le CSS -->
+     <link rel="stylesheet" href="apropos.css">
+
+  <title>À mon propos</title>
+</head>
+<body>
+  <header>
+    <h1>Bonjour, je suis Marlon !</h1>
+    <p>Étudiant • Rêveur • Futur développeur</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#hobbies">Loisirs</a>
+    <a href="#favorites">Favoris</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>À propos</h2>
+      <div class="apropos">
+        <p>Salut ! Je suis <strong>Marlon</strong>. 
+      Ceci est un simple site web qui me décrit.</p>
+      </div>
+    </section>
+
+    <section id="loisirs">
+      <h2>Mes loisirs</h2>
+      <ul class="liste-loisirs">
+        <li>🎮 Jeux Vidéos</li>
+        <li>📚 Lecture</li>
+        <li>🎵 Musique</li>
+        <li>🏋️‍♂️ Gym</li>
+        <li>💻 Programmation</li>
+      </ul>
+    </section>
+
+    <section id="favoris">
+      <h2>Mes favoris</h2>
+      <table>
+        <tr>
+          <th>Catégorie</th>
+          <th>Mon Choix</th>
+        </tr>
+        <tr>
+          <td>🎬 Film</td>
+          <td>Fast Five</td>
+        </tr>
+        <tr>
+          <td>🎵 Musique</td>
+          <td>Forever Young - Alphaville</td>
+        </tr>
+        <tr>
+          <td>📖 Livre</td>
+          <td>Le Petit Prince - Antoine de Saint-Exupéry</td>
+        </tr>
+        <tr>
+          <td>🍕 Plat</td>
+          <td>Riz au lait</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Vous voulez me contacter ?</h2>
+      <div class="contact">
+        <label for="name">Votre nom</label>
+        <input type="text" id="name" placeholder="ex. Sarah" />
+
+        <label for="email">Votre courriel</label>
+        <input type="email" id="email" placeholder="ex. sarah@email.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Écrivez ici..."></textarea>
+
+        <button onclick="alert('Message envoyé avec succès')">Envoyer un message</button>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2024 Marlon. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
